@@ -35,7 +35,7 @@ nav form {
   padding: 8px;
   border-radius: 30px;
   position: static;
-  margin-left: -350px;
+  margin-left: -320px;
   
 }
 
@@ -113,7 +113,7 @@ section .left ul li a span {
 }
 
 section main {
-  /* flex: 3; */
+
   margin-left: 410px;
   width: 500px;
 }
@@ -206,14 +206,16 @@ section .right .companies a span {
   width: 100px;
 }
 
-.mind-cover {
+section main .mind-cover {
+  position: inherit;
   display: flex;
   flex-direction: column;
   width: 500px;
-  height: 120px;
+  height: 1190px;
   gap: 5px;
   background-color: #fff;
   border-radius: 10px;
+  text-align: justify;
 }
 
 .mind-input {
